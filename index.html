@@ -1,0 +1,1680 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./font/fontawesome/css/all.min.css" />
+  </head>
+
+  <body>
+    <div id="main">
+      <header class="nav">
+        <div class="nav-item" id="nav__start">
+          <div class="header__btn">
+            <button class="header__btn__icon js-sliding-open">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+          <a href="https://www.youtube.com/">
+            <img
+              class="header__link"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="nav-item" id="nav__center">
+          <div class="search__bar">
+            <div class="header__search">
+              <input class="input__search" type="" placeholder="Tìm kiếm" />
+            </div>
+            <div class="header__btn-find">
+              <button class="header__btn__icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="btn__notice btn__notice--find">Tìm kiếm</div>
+              </button>
+            </div>
+          </div>
+          <div class="header__btn btn--mic">
+            <button class="header__btn__icon">
+              <i class="fa-solid fa-microphone"></i>
+              <div class="btn__notice btn__notice--mic">
+                Tìm kiếm bằng giọng nói
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="nav-item" id="nav__end">
+          <!-- nav end 1 -->
+          <div class="header__btn btn__renderer header_btn_video">
+            <button class="header__btn__icon btn__video">
+              <i class="fa-solid fa-video"></i>
+              <div class="btn__notice btn__notice--video">Tạo</div>
+            </button>
+            <div class="header__btn__video__menu">
+              <ul class="header__btn__menu__list">
+                <li class="header__btn__menu__item">
+                  <a href="" class="header__btn__menu__link">
+                    <i
+                      class="fa-solid fa-play icon header__btn__menu__icon"
+                    ></i>
+                    <div class="header__btn__menu__name">Upload video</div>
+                  </a>
+                </li>
+                <li class="header__btn__menu__item">
+                  <a href="" class="header__btn__menu__link">
+                    <i
+                      class="fa-solid fa-signal icon header__btn__menu__icon"
+                    ></i>
+                    <div class="header__btn__menu__name">Go live</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- nav end 2 -->
+          <div class="header__btn btn__renderer header_btn_apps">
+            <button class="header__btn__icon btn__apps">
+              <i class="fa-brands fa-buromobelexperte"></i>
+              <div class="btn__notice btn__notice--apps">
+                Các ứng dụng youtube
+              </div>
+            </button>
+            <div class="header_btn_apps_menu">
+              <ul class="header__btn__menu__list">
+                <li class="header__btn__menu__item">
+                  <a href="" class="header__btn__menu__link">
+                    <i class="fa-brands fa-youtube header__btn__menu__icon"></i>
+                    <div class="header__btn__menu__name">YouTube TV</div>
+                  </a>
+                </li>
+                <div
+                  style="
+                    background-color: #e2e2e2;
+                    height: 1px;
+                    margin: 8px 0px;
+                  "
+                ></div>
+                <li class="header__btn__menu__item">
+                  <a href="" class="header__btn__menu__link">
+                    <i class="fa-brands fa-youtube header__btn__menu__icon"></i>
+                    <div class="header__btn__menu__name">YouTube Music</div>
+                  </a>
+                </li>
+                <li class="header__btn__menu__item">
+                  <a href="" class="header__btn__menu__link">
+                    <i class="fa-solid fa-child header__btn__menu__icon"></i>
+                    <div class="header__btn__menu__name">YouTube Kids</div>
+                  </a>
+                </li>
+                <div
+                  style="
+                    background-color: #e2e2e2;
+                    height: 1px;
+                    margin: 8px 0px;
+                  "
+                ></div>
+                <li class="header__btn__menu__item">
+                  <a href="" class="header__btn__menu__link">
+                    <i
+                      class="fa-brands fa-youtube-square header__btn__menu__icon"
+                    ></i>
+                    <div class="header__btn__menu__name">
+                      YouTube for Artists
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="header__btn btn__renderer">
+            <button class="header__btn__icon">
+              <i class="fa-regular fa-bell"></i>
+              <div class="btn__notice btn__notice--notication">Thông báo</div>
+            </button>
+          </div>
+          <div class="header__btn btn__avatar">
+            <button class="header__btn__icon">
+              <i class="fa-regular fa-circle-user" id="user"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="main-content">
+          <div class="content__video">
+            <iframe
+              class="content__video__iframe"
+              src="https://www.youtube.com/embed/0M84RHGtyXQ"
+            ></iframe>
+            <!-- <iframe class="content__video__iframe" src="https://www.youtube.com/embed/5afz2COusA0"></iframe> -->
+          </div>
+          <div class="content__allinfo">
+            <div>
+              <p class="content__hashtag">#rinmusic #khongbang #na</p>
+            </div>
+            <div>
+              <p class="content__title">
+                Không Bằng (RIN Music Remix) - Na | Nhạc EDM TikTok 2021 Gây
+                Nghiện
+              </p>
+            </div>
+            <div class="content__react">
+              <p class="content__react__views">2,240,480 views</p>
+              <ul class="content__react__list">
+                <li class="content__react__item">
+                  <button class="content__react__btn">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                  </button>
+                  <p class="content__react__name-btn">16K</p>
+                </li>
+                <li class="content__react__item">
+                  <button class="content__react__btn">
+                    <i class="fa-regular fa-thumbs-down"></i>
+                  </button>
+                  <p class="content__react__name-btn">DISLIKE</p>
+                </li>
+                <li class="content__react__item">
+                  <button class="content__react__btn">
+                    <i class="fa-solid fa-share"></i>
+                  </button>
+                  <p class="content__react__name-btn">SHARE</p>
+                </li>
+                <li class="content__react__item">
+                  <button class="content__react__btn">
+                    <i class="fa-solid fa-scissors"></i>
+                  </button>
+                  <p class="content__react__name-btn">CLIP</p>
+                </li>
+                <li class="content__react__item">
+                  <button class="content__react__btn">
+                    <i class="fa-solid fa-floppy-disk"></i>
+                  </button>
+                  <p class="content__react__name-btn">SAVE</p>
+                </li>
+                <li class="content__react__item">
+                  <button class="content__react__btn">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="content__info"></div>
+            <div class="content__description"></div>
+          </div>
+          <div class="channel__info1">
+            <div class="channel__info">
+              <div class="channel__header">
+                <a href="" class="channel__img__link">
+                  <img
+                    src="https://yt3.ggpht.com/jyNBU9zJUkM71S9pqCA5uBg6BZKMWBYpATCgDZKcHR8XE-iAXElA768gf8WWb77BJwJnySvT=s176-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                    class="channel__img"
+                  />
+                </a>
+                <div class="channel__subtitle">
+                  <a href="" class="channel__subtitle__link">
+                    <p class="channel__subtitle__link_p1"><b>RIN Music ✓</b></p>
+                  </a>
+                  <p class="channel__subtitle__link_p2">19.9K subscribers</p>
+                </div>
+                <div class="channel_subscribe">
+                  <button class="channel_subscribe_btn">SUBSCRIBE</button>
+                </div>
+              </div>
+              <div class="channel__body">
+                <div class="channel__body_p1">
+                  <div>Nghe Audio độc quyền trên Zing MP3:</div>
+                  <a href="" class="channel__body__link"
+                    >https://zingmp3.vn/bai-hat/Khong-Bang...</a
+                  >
+                </div>
+                <div class="channel__body_p2">
+                  Không Bằng (RIN Music Remix) - Na | Nhạc EDM TikTok 2021 Gây
+                  Nghiện
+                </div>
+                <div class="channel__body_p3">OPEN DESCRIPTION</div>
+              </div>
+            </div>
+          </div>
+          <div style="background-color: #e2e2e2; height: 1px"></div>
+          <div class="Comment">
+            <div class="Comment_header">
+              <div class="Comment_header_item_info">
+                <div class="Comment_count">4 Comments</div>
+                <div class="Comment_sort">
+                  <i class="fa-solid fa-list-ul icon"></i>
+                  <div>SORT BY</div>
+                </div>
+              </div>
+              <div class="Comment_header_item_input">
+                <div class="Comment_user">
+                  <img
+                    class="Comment_user_avatar"
+                    src="https://yt3.ggpht.com/yti/APfAmoFRlAtb4Rkc2yDzyybZWh8dwkPCJN0nDUjQW1b6=s88-c-k-c0x00ffffff-no-rj"
+                    alt=""
+                  />
+                </div>
+                <div class="Comment_content">
+                  <input
+                    class="Comment_typing_box"
+                    type=""
+                    placeholder="Add a comment..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="Comment_body">
+              <div class="Comment_item">
+                <div class="comment_item_avt">
+                  <img
+                    class="Comment_user_avatar"
+                    src="https://yt3.ggpht.com/ytc/AKedOLRkY5n3Hd-EXXEpeUPp4INtDJTT_awisaAOhndN1g=s88-c-k-c0x00ffffff-no-rj-mo"
+                    alt=""
+                  />
+                </div>
+                <div class="Comment_content">
+                  <div class="Comment_item_info_header">
+                    <div class="item_info_name">Sơn Tùng M-TP Official ♪</div>
+                    <div class="item_info_date">2 days ago</div>
+                  </div>
+                  <div class="Comment_item_info_main">
+                    <p class="item_info_comment">
+                      Gặp nhau là duyên phận, xa nhau cũng là do duyên phận.
+                    </p>
+                    <p class="item_info_comment">Thương em !</p>
+                  </div>
+                  <div class="Comment_item_info_footer">
+                    <i class="item_info_icon fa-solid fa-thumbs-up"></i>
+                    <i class="item_info_icon fa-solid fa-thumbs-down"></i>
+                    <div class="item_info_reply">REPLY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="Comment_item">
+                <div class="comment_item_avt">
+                  <img
+                    class="Comment_user_avatar"
+                    src="https://yt3.ggpht.com/lsczCzkZ0-q_WCn3c3c88CyP0pZDeHuZfvP7s8zC_iLGMyyMoFV1YxoKZI4f_awsTLmqxy8TFg=s88-c-k-c0x00ffffff-no-nd-rj"
+                    alt=""
+                  />
+                </div>
+                <div class="Comment_content">
+                  <div class="Comment_item_info_header">
+                    <div class="item_info_name">Hiền Hồ Official ♪</div>
+                    <div class="item_info_date">6 days ago</div>
+                  </div>
+                  <div class="Comment_item_info_main">
+                    <p class="item_info_comment">Đánh Golf không em ???</p>
+                  </div>
+                  <div class="Comment_item_info_footer">
+                    <i class="item_info_icon fa-solid fa-thumbs-up"></i>
+                    <i class="item_info_icon fa-solid fa-thumbs-down"></i>
+                    <div class="item_info_reply">REPLY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="Comment_item">
+                <div class="comment_item_avt">
+                  <img
+                    class="Comment_user_avatar"
+                    src="https://yt3.ggpht.com/HmAJCuCRMkG2eeLDwX2AuQJZoKd0sBe4mGqxBy0FsmaFDyRh1NxbIDOxDm_EaTvvYLIO2FWEDpg=s176-c-k-c0x00ffffff-no-rj-mo"
+                    alt=""
+                  />
+                </div>
+                <div class="Comment_content">
+                  <div class="Comment_item_info_header">
+                    <div class="item_info_name">Binz Da Poet ♪</div>
+                    <div class="item_info_date">1 months ago</div>
+                  </div>
+                  <div class="Comment_item_info_main">
+                    <p class="item_info_comment">Bài hát rất tuyệt !!!</p>
+                    <p class="item_info_comment">Amazing good job em !</p>
+                  </div>
+                  <div class="Comment_item_info_footer">
+                    <i class="item_info_icon fa-solid fa-thumbs-up"></i>
+                    <i class="item_info_icon fa-solid fa-thumbs-down"></i>
+                    <div class="item_info_reply">REPLY</div>
+                  </div>
+                </div>
+              </div>
+              <div class="Comment_item">
+                <div class="comment_item_avt">
+                  <img
+                    class="Comment_user_avatar"
+                    src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t1.6435-9/62479791_102360987707324_8268494214455623680_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=F6ZSzQD7YTQAX9b3fdc&tn=nCd3J6E8_kdYKY1L&_nc_ht=scontent.fsgn5-11.fna&oh=00_AT82VENAWuEyBMsUgVOBgsldE4PgrXg3S9rY5mlq01Y1Hw&oe=62604BC1"
+                    alt=""
+                  />
+                </div>
+                <div class="Comment_content">
+                  <div class="Comment_item_info_header">
+                    <div class="item_info_name">Huynh Hoang Ha</div>
+                    <div class="item_info_date">1 minute ago</div>
+                  </div>
+                  <div class="Comment_item_info_main">
+                    <p class="item_info_comment">Hay quá các em !</p>
+                  </div>
+                  <div class="Comment_item_info_footer">
+                    <i class="item_info_icon fa-solid fa-thumbs-up"></i>
+                    <i class="item_info_icon fa-solid fa-thumbs-down"></i>
+                    <div class="item_info_reply">REPLY</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- list option video -->
+        <div class="list_option">
+          <div class="option_btnchat">
+            <!-- show chat replay button -->
+            <button class="btnchat">SHOW CHAT REPLAY</button>
+          </div>
+          <div>
+            <!-- sort -->
+            <nav class="sort_nav">
+              <button class="sort_btn sort_btn_viewing">All</button>
+              <button class="sort_btn">Youth music</button>
+              <button class="sort_btn">Live</button>
+              <!-- <button class="next_btn">
+                            <i class="fa-duotone fa-chevron-right"></i>
+                        </button> -->
+            </nav>
+          </div>
+          <div class="option">
+            <div class="option_item">
+              <!-- phần hiển thị video chờ -->
+              <div class="option_second_vidsrc">
+                <img
+                  class="option_img"
+                  src="https://i.ytimg.com/vi/wssbBe_t-r4/maxresdefault.jpg"
+                  alt=""
+                />
+                <button class="option_second_vidsrc_btn watchlater">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_watchlater">
+                  Watch later
+                </div>
+                <button class="option_second_vidsrc_btn addtoqueue">
+                  <i class="fa-solid fa-clock"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_addtoqueue">
+                  Add to queue
+                </div>
+                <div class="option_second_vidsrc_length">5:32</div>
+              </div>
+              <!-- phần detail cho video hàng chờ -->
+              <div class="option_info">
+                <h1 class="option_name_info">
+                  Orange - 'Em Hát Ai Nghe' Official M/V
+                </h1>
+                <p class="option_sub_info">Orange Singer Official ♪</p>
+                <p class="option_sub_info">17M views • 10 month ago</p>
+              </div>
+              <!-- nút report cuối row -->
+              <div class="option_report">
+                <button class="option_report_btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <!-- cửa sổ trượt report -->
+                <div class="option_report_window">
+                  <ul class="option_report_list">
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-bars" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-clock" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p"
+                            >Save to Watch later</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-cart-plus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Save to playlist</span>
+                        </div>
+                      </a>
+                    </li>
+                    <div
+                      style="
+                        background-color: #e2e2e2;
+                        height: 1px;
+                        width: 100%;
+                      "
+                    ></div>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-xmark"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-minus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-flag" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="option_item">
+              <!-- phần hiển thị video chờ -->
+              <div class="option_second_vidsrc">
+                <img
+                  class="option_img"
+                  src="https://i.ytimg.com/vi/Px4AJUkVHL0/hqdefault.jpg"
+                  alt=""
+                />
+                <button class="option_second_vidsrc_btn watchlater">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_watchlater">
+                  Watch later
+                </div>
+                <button class="option_second_vidsrc_btn addtoqueue">
+                  <i class="fa-solid fa-clock"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_addtoqueue">
+                  Add to queue
+                </div>
+                <div class="option_second_vidsrc_length">5:29</div>
+              </div>
+              <!-- phần detail cho video hàng chờ -->
+              <div class="option_info">
+                <h1 class="option_name_info">
+                  The Cassette - Tựa Đêm Nay (Official Music Video)
+                </h1>
+                <p class="option_sub_info">The Cassette</p>
+                <p class="option_sub_info">26M views • 1 year ago</p>
+              </div>
+              <!-- nút report cuối row -->
+              <div class="option_report">
+                <button class="option_report_btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <!-- cửa sổ trượt report -->
+                <div class="option_report_window">
+                  <ul class="option_report_list">
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-bars" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-clock" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p"
+                            >Save to Watch later</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-cart-plus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Save to playlist</span>
+                        </div>
+                      </a>
+                    </li>
+                    <div
+                      style="
+                        background-color: #e2e2e2;
+                        height: 1px;
+                        width: 100%;
+                      "
+                    ></div>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-xmark"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-minus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-flag" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="option_item">
+              <!-- phần hiển thị video chờ -->
+              <div class="option_second_vidsrc">
+                <img
+                  class="option_img"
+                  src="https://i.ytimg.com/vi/037ysh7z3jg/maxresdefault.jpg"
+                  alt=""
+                />
+                <button class="option_second_vidsrc_btn watchlater">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_watchlater">
+                  Watch later
+                </div>
+                <button class="option_second_vidsrc_btn addtoqueue">
+                  <i class="fa-solid fa-clock"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_addtoqueue">
+                  Add to queue
+                </div>
+                <div class="option_second_vidsrc_length">4:44</div>
+              </div>
+              <!-- phần detail cho video hàng chờ -->
+              <div class="option_info">
+                <h1 class="option_name_info">
+                  Lạc nhau có phải muôn đời - ERIK from ST.319
+                </h1>
+                <p class="option_sub_info">Phuong Nguyen</p>
+                <p class="option_sub_info">1.9M views • 5 years ago</p>
+              </div>
+              <!-- nút report cuối row -->
+              <div class="option_report">
+                <button class="option_report_btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <!-- cửa sổ trượt report -->
+                <div class="option_report_window">
+                  <ul class="option_report_list">
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-bars" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-clock" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p"
+                            >Save to Watch later</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-cart-plus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Save to playlist</span>
+                        </div>
+                      </a>
+                    </li>
+                    <div
+                      style="
+                        background-color: #e2e2e2;
+                        height: 1px;
+                        width: 100%;
+                      "
+                    ></div>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-xmark"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-minus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-flag" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="option_item">
+              <!-- phần hiển thị video chờ -->
+              <div class="option_second_vidsrc">
+                <img
+                  class="option_img"
+                  src="https://i.ytimg.com/vi/f3QmvxbzutQ/hqdefault.jpg"
+                  alt=""
+                />
+                <button class="option_second_vidsrc_btn watchlater">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_watchlater">
+                  Watch later
+                </div>
+                <button class="option_second_vidsrc_btn addtoqueue">
+                  <i class="fa-solid fa-clock"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_addtoqueue">
+                  Add to queue
+                </div>
+                <div class="option_second_vidsrc_length">3:07</div>
+              </div>
+              <!-- phần detail cho video hàng chờ -->
+              <div class="option_info">
+                <h1 class="option_name_info">
+                  Touliver x Soobin Hoàng Sơn - Vài Lần Đón Đưa ( Cover )
+                </h1>
+                <p class="option_sub_info">SpaceSpeakers ✓</p>
+                <p class="option_sub_info">61M views • 5 years ago</p>
+              </div>
+              <!-- nút report cuối row -->
+              <div class="option_report">
+                <button class="option_report_btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <!-- cửa sổ trượt report -->
+                <div class="option_report_window">
+                  <ul class="option_report_list">
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-bars" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-clock" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p"
+                            >Save to Watch later</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-cart-plus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Save to playlist</span>
+                        </div>
+                      </a>
+                    </li>
+                    <div
+                      style="
+                        background-color: #e2e2e2;
+                        height: 1px;
+                        width: 100%;
+                      "
+                    ></div>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-xmark"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-minus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-flag" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="option_item">
+              <!-- phần hiển thị video chờ -->
+              <div class="option_second_vidsrc">
+                <img
+                  class="option_img"
+                  src="https://i.ytimg.com/vi/KhTCatAKVpk/maxresdefault.jpg"
+                  alt=""
+                />
+                <button class="option_second_vidsrc_btn watchlater">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_watchlater">
+                  Watch later
+                </div>
+                <button class="option_second_vidsrc_btn addtoqueue">
+                  <i class="fa-solid fa-clock"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_addtoqueue">
+                  Add to queue
+                </div>
+                <div class="option_second_vidsrc_length">4:27</div>
+              </div>
+              <!-- phần detail cho video hàng chờ -->
+              <div class="option_info">
+                <h1 class="option_name_info">
+                  JustaTee - Love you too much (Official MV)
+                </h1>
+                <p class="option_sub_info">JustaTeeMusic ♪</p>
+                <p class="option_sub_info">160M views • 4 years ago</p>
+              </div>
+              <!-- nút report cuối row -->
+              <div class="option_report">
+                <button class="option_report_btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <!-- cửa sổ trượt report -->
+                <div class="option_report_window">
+                  <ul class="option_report_list">
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-bars" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-clock" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p"
+                            >Save to Watch later</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-cart-plus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Save to playlist</span>
+                        </div>
+                      </a>
+                    </li>
+                    <div
+                      style="
+                        background-color: #e2e2e2;
+                        height: 1px;
+                        width: 100%;
+                      "
+                    ></div>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-xmark"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-minus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-flag" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="option_item">
+              <!-- phần hiển thị video chờ -->
+              <div class="option_second_vidsrc">
+                <img
+                  class="option_img"
+                  src="https://i.ytimg.com/vi/DNMMYtOo1EM/maxresdefault.jpg"
+                  alt=""
+                />
+                <button class="option_second_vidsrc_btn watchlater">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_watchlater">
+                  Watch later
+                </div>
+                <button class="option_second_vidsrc_btn addtoqueue">
+                  <i class="fa-solid fa-clock"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_addtoqueue">
+                  Add to queue
+                </div>
+                <div class="option_second_vidsrc_length">5:09</div>
+              </div>
+              <!-- phần detail cho video hàng chờ -->
+              <div class="option_info">
+                <h1 class="option_name_info">
+                  Lyric Yêu Anh Uyên Pím ft Boo Loving You Vietnamese version
+                </h1>
+                <p class="option_sub_info">LiOn Bee Channel</p>
+                <p class="option_sub_info">24K views • 2 years ago</p>
+              </div>
+              <!-- nút report cuối row -->
+              <div class="option_report">
+                <button class="option_report_btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <!-- cửa sổ trượt report -->
+                <div class="option_report_window">
+                  <ul class="option_report_list">
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-bars" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-clock" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p"
+                            >Save to Watch later</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-cart-plus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Save to playlist</span>
+                        </div>
+                      </a>
+                    </li>
+                    <div
+                      style="
+                        background-color: #e2e2e2;
+                        height: 1px;
+                        width: 100%;
+                      "
+                    ></div>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-xmark"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-minus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-flag" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="option_item">
+              <!-- phần hiển thị video chờ -->
+              <div class="option_second_vidsrc">
+                <img
+                  class="option_img"
+                  src="https://avatar-ex-swe.nixcdn.com/song/share/2020/10/16/b/c/d/5/1602818352299.jpg"
+                  alt=""
+                />
+                <button class="option_second_vidsrc_btn watchlater">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_watchlater">
+                  Watch later
+                </div>
+                <button class="option_second_vidsrc_btn addtoqueue">
+                  <i class="fa-solid fa-clock"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_addtoqueue">
+                  Add to queue
+                </div>
+                <div class="option_second_vidsrc_length">4:13</div>
+              </div>
+              <!-- phần detail cho video hàng chờ -->
+              <div class="option_info">
+                <h1 class="option_name_info">
+                  Cố Thức Đến Mùa Cây Thay Lá | Thai Dinh | Official MV
+                </h1>
+                <p class="option_sub_info">Thái Đinh ♪</p>
+                <p class="option_sub_info">1M views • 1 years ago</p>
+              </div>
+              <!-- nút report cuối row -->
+              <div class="option_report">
+                <button class="option_report_btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <!-- cửa sổ trượt report -->
+                <div class="option_report_window">
+                  <ul class="option_report_list">
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-bars" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-clock" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p"
+                            >Save to Watch later</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-cart-plus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Save to playlist</span>
+                        </div>
+                      </a>
+                    </li>
+                    <div
+                      style="
+                        background-color: #e2e2e2;
+                        height: 1px;
+                        width: 100%;
+                      "
+                    ></div>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-xmark"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-minus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-flag" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="option_item">
+              <!-- phần hiển thị video chờ -->
+              <div class="option_second_vidsrc">
+                <img
+                  class="option_img"
+                  src="https://i.ytimg.com/vi/HHD9nLAn-Vo/maxresdefault.jpg"
+                  alt=""
+                />
+                <button class="option_second_vidsrc_btn watchlater">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_watchlater">
+                  Watch later
+                </div>
+                <button class="option_second_vidsrc_btn addtoqueue">
+                  <i class="fa-solid fa-clock"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_addtoqueue">
+                  Add to queue
+                </div>
+                <div class="option_second_vidsrc_length">3:10</div>
+              </div>
+              <!-- phần detail cho video hàng chờ -->
+              <div class="option_info">
+                <h1 class="option_name_info">
+                  Một Ngày Như Hôm Nay (A Day Like Today) - Khoa Vu x Hai Sam
+                </h1>
+                <p class="option_sub_info">HaiSam ♪</p>
+                <p class="option_sub_info">1.3M views • 3 years ago</p>
+              </div>
+              <!-- nút report cuối row -->
+              <div class="option_report">
+                <button class="option_report_btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <!-- cửa sổ trượt report -->
+                <div class="option_report_window">
+                  <ul class="option_report_list">
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-bars" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-clock" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p"
+                            >Save to Watch later</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-cart-plus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Save to playlist</span>
+                        </div>
+                      </a>
+                    </li>
+                    <div
+                      style="
+                        background-color: #e2e2e2;
+                        height: 1px;
+                        width: 100%;
+                      "
+                    ></div>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-xmark"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-minus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-flag" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="option_item">
+              <!-- phần hiển thị video chờ -->
+              <div class="option_second_vidsrc">
+                <img
+                  class="option_img"
+                  src="https://i.ytimg.com/vi/DlKIrocyuyU/maxresdefault.jpg"
+                  alt=""
+                />
+                <button class="option_second_vidsrc_btn watchlater">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_watchlater">
+                  Watch later
+                </div>
+                <button class="option_second_vidsrc_btn addtoqueue">
+                  <i class="fa-solid fa-clock"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_addtoqueue">
+                  Add to queue
+                </div>
+                <div class="option_second_vidsrc_length">4:07</div>
+              </div>
+              <!-- phần detail cho video hàng chờ -->
+              <div class="option_info">
+                <h1 class="option_name_info">
+                  Thế Thôi (That's all) - Hai Sam [ENG/CHN]
+                </h1>
+                <p class="option_sub_info">HaiSam ♪</p>
+                <p class="option_sub_info">8.3M views • 3 years ago</p>
+              </div>
+              <!-- nút report cuối row -->
+              <div class="option_report">
+                <button class="option_report_btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <!-- cửa sổ trượt report -->
+                <div class="option_report_window">
+                  <ul class="option_report_list">
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-bars" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-clock" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p"
+                            >Save to Watch later</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-cart-plus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Save to playlist</span>
+                        </div>
+                      </a>
+                    </li>
+                    <div
+                      style="
+                        background-color: #e2e2e2;
+                        height: 1px;
+                        width: 100%;
+                      "
+                    ></div>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-xmark"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-minus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-flag" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="option_item">
+              <!-- phần hiển thị video chờ -->
+              <div class="option_second_vidsrc">
+                <img
+                  class="option_img"
+                  src="https://i.ytimg.com/vi/n6Pnzi6r9NU/maxresdefault.jpg
+                            "
+                  alt=""
+                />
+                <button class="option_second_vidsrc_btn watchlater">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_watchlater">
+                  Watch later
+                </div>
+                <button class="option_second_vidsrc_btn addtoqueue">
+                  <i class="fa-solid fa-clock"></i>
+                </button>
+                <div class="option_second_vidsrc_subtitle subtitle_addtoqueue">
+                  Add to queue
+                </div>
+                <div class="option_second_vidsrc_length">5:43</div>
+              </div>
+              <!-- phần detail cho video hàng chờ -->
+              <div class="option_info">
+                <h1 class="option_name_info">
+                  BƯỚC QUA MÙA CÔ ĐƠN / Vũ. (Official MV)
+                </h1>
+                <p class="option_sub_info">Vũ Official ♪</p>
+                <p class="option_sub_info">47.2M views • 1 year ago</p>
+              </div>
+              <!-- nút report cuối row -->
+              <div class="option_report">
+                <button class="option_report_btn">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+                <!-- cửa sổ trượt report -->
+                <div class="option_report_window">
+                  <ul class="option_report_list">
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-bars" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-clock" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p"
+                            >Save to Watch later</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-cart-plus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Save to playlist</span>
+                        </div>
+                      </a>
+                    </li>
+                    <div
+                      style="
+                        background-color: #e2e2e2;
+                        height: 1px;
+                        width: 100%;
+                      "
+                    ></div>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-xmark"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i
+                          class="fa-solid fa-circle-minus"
+                          style="margin: 15px"
+                        ></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="option_report_item">
+                      <a href="" class="option_report_link">
+                        <i class="fa-solid fa-flag" style="margin: 15px"></i>
+                        <div class="option_report_body">
+                          <span class="option_report_p">Add to queue</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal__section">
+      <div class="modal__section__container">
+        <div class="modal__section__header">
+          <button class="header__btn js-sliding-close">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <a href="https://www.youtube.com/" class="header__link">
+            <img
+              class="header__link__img"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="modal__section__content">
+          <div
+            class="modal__section__content__list"
+            id="modal__section__list__one"
+          >
+            <div class="modal__section__content__item">
+              <i class="fa-solid fa-house modal__section__img__item"></i>
+              <div class="modal__section__name__item">Trang chủ</div>
+            </div>
+            <div class="modal__section__content__item">
+              <i class="fa-regular fa-compass modal__section__img__item"></i>
+              <div class="modal__section__name__item">Khám phá</div>
+            </div>
+            <div class="modal__section__content__item">
+              <i class="fa-solid fa-film modal__section__img__item"></i>
+              <div class="modal__section__name__item">Shorts</div>
+            </div>
+            <div class="modal__section__content__item">
+              <i class="fa-solid fa-film modal__section__img__item"></i>
+              <div class="modal__section__name__item">Kênh đăng ký</div>
+            </div>
+            <div class="modal__section__content__item line__item"></div>
+            <div class="modal__section__content__item">
+              <i class="fa-solid fa-photo-film modal__section__img__item"></i>
+              <div class="modal__section__name__item">Thư viện</div>
+            </div>
+            <div class="modal__section__content__item">
+              <i
+                class="fa-solid fa-clock-rotate-left modal__section__img__item"
+              ></i>
+              <div class="modal__section__name__item">Video đã xem</div>
+            </div>
+            <div class="modal__section__content__item">
+              <i class="fa-solid fa-circle-play modal__section__img__item"></i>
+              <div class="modal__section__name__item">Video của bạn</div>
+            </div>
+            <div class="modal__section__content__item">
+              <i class="fa-regular fa-clock modal__section__img__item"></i>
+              <div class="modal__section__name__item">Xem sau</div>
+            </div>
+            <div class="modal__section__content__item">
+              <i class="fa-regular fa-thumbs-up modal__section__img__item"></i>
+              <div class="modal__section__name__item">Video đã thích</div>
+            </div>
+            <div class="modal__section__content__item">
+              <i class="fa-solid fa-chevron-down modal__section__img__item"></i>
+              <div class="modal__section__name__item">Thêm</div>
+            </div>
+          </div>
+          <div
+            class="modal__section__content__list"
+            id="modal__section__list__two"
+          >
+            <h3 class="modal__section__content__title">KÊNH ĐĂNG KÝ</h3>
+            <div class="modal__section__content__item">
+              <img
+                class="modal__section__img__item__second"
+                src="https://nld.mediacdn.vn/291774122806476800/2021/7/26/8003938512048996030467211900986459746205696oqwmn-1627261789603588646429.jpg"
+                alt=""
+              />
+              <div class="modal__section__name__item">Hiền Hồ Official</div>
+            </div>
+            <div class="modal__section__content__item">
+              <img
+                class="modal__section__img__item__second"
+                src="https://yt3.ggpht.com/4e01cqVCuz7b-dbul5z-SrYbQTHbBnTQ1J91nt9n_sO5qLSW9kDNeHNJYHRpKXgqt1b26y-lbA=s900-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="modal__section__name__item">W2W Cartoon</div>
+            </div>
+            <div class="modal__section__content__item">
+              <img
+                class="modal__section__img__item__second"
+                src="https://yt3.ggpht.com/ytc/AKedOLRGdaJkLSxBNs42Q3CHaHz5l1B3wzmwJI-wVMzriA=s900-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="modal__section__name__item">Vietnam esport TV</div>
+            </div>
+            <div class="modal__section__content__item">
+              <img
+                class="modal__section__img__item__second"
+                src="https://static2.yan.vn/YanNews/2167221/202002/truc-nhan-la-ai-tieu-su-su-nghiep-doi-tu-cua-nam-ca-si-viet-9079a182.jpg"
+                alt=""
+              />
+              <div class="modal__section__name__item">Trúc Nhân Official</div>
+            </div>
+            <div class="modal__section__content__item">
+              <img
+                class="modal__section__img__item__second"
+                src="https://static2.yan.vn/YanNews/202203/202203130755070702-6ee1faa0-220d-425a-a3bb-ead8aa6fb909.jpeg"
+                alt=""
+              />
+              <div class="modal__section__name__item">Binz Da Poet</div>
+            </div>
+            <div class="modal__section__content__item">
+              <img
+                class="modal__section__img__item__second"
+                src="https://yt3.ggpht.com/i2BBir9626AxLzMHuyF1sx4WiHV-CqipS0EC9c2UklgT6bC0inZ-XvKVHgsjckxKl2_XjV_uyDk=s900-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <div class="modal__section__name__item">Đen Vâu Official</div>
+            </div>
+          </div>
+          <div
+            class="modal__section__content__list"
+            id="modal__section__list__two"
+          >
+            <h3 class="modal__section__content__title">
+              DỊCH VỤ KHÁC CỦA YOUTUBE
+            </h3>
+            <div class="modal__section__content__item">
+              <i class="fa-solid fa-gamepad modal__section__img__item"></i>
+              <div class="modal__section__name__item">Trò chơi</div>
+            </div>
+            <div class="modal__section__content__item">
+              <i
+                class="fa-brands fa-steam-symbol modal__section__img__item"
+              ></i>
+              <div class="modal__section__name__item">Sự kiện trực tiếp</div>
+            </div>
+            <div class="modal__section__content__item">
+              <i class="fa-solid fa-trophy modal__section__img__item"></i>
+              <div class="modal__section__name__item">Thể thao</div>
+            </div>
+          </div>
+          <div
+            class="modal__section__content__list"
+            id="modal__section__list__two"
+          >
+            <div class="modal__section__content__item">
+              <i class="fa-solid fa-gear modal__section__img__item"></i>
+              <div class="modal__section__name__item">Cài đặt</div>
+            </div>
+            <div class="modal__section__content__item">
+              <i class="fa-solid fa-flag modal__section__img__item"></i>
+              <div class="modal__section__name__item">Lịch sử báo cáo</div>
+            </div>
+            <div class="modal__section__content__item">
+              <i
+                class="fa-regular fa-circle-question modal__section__img__item"
+              ></i>
+              <div class="modal__section__name__item">Trợ giúp</div>
+            </div>
+            <div class="modal__section__content__item">
+              <i
+                class="fa-solid fa-circle-exclamation modal__section__img__item"
+              ></i>
+              <div class="modal__section__name__item">Gửi phản hồi</div>
+            </div>
+          </div>
+          <div class="modal__section__footer">
+            <div class="modal__section__footer__primary">
+              <p class="modal__section__footer__item">
+                Giới thiệu Báo chí Bản quyền
+              </p>
+              <p class="modal__section__footer__item">Liên hệ với chúng tôi</p>
+              <p class="modal__section__footer__item">
+                Người sáng tạo Quảng cáo
+              </p>
+              <p class="modal__section__footer__item">Nhà phát triển</p>
+            </div>
+            <div class="modal__section__footer__primary">
+              <p class="modal__section__footer__item">
+                Điều khoản Quyền riêng tư
+              </p>
+              <p class="modal__section__footer__item">Chính sách an toàn</p>
+              <p class="modal__section__footer__item">Cách youtube hoạt động</p>
+              <p class="modal__section__footer__item">Thử các tính năng mới</p>
+            </div>
+            <div class="modal__section__footer__secondary">
+              <p class="modal__section__footer__item">© 2022 Google LLC</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const slidingBnt_open = document.querySelector(".js-sliding-open");
+      const slidingBnt_close = document.querySelector(".js-sliding-close");
+      const modal = document.querySelector(".modal__section");
+      function showSection() {
+        modal.classList.add("open");
+      }
+      function hiddenSection() {
+        modal.classList.add("close");
+        modal.classList.remove("open");
+      }
+      slidingBnt_open.addEventListener("click", showSection);
+      slidingBnt_close.addEventListener("click", hiddenSection);
+    </script>
+  </body>
+</html>
